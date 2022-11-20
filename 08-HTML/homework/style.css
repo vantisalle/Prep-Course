@@ -1,0 +1,80 @@
+
+
+body{
+	background-image: url('BG1.jpg');
+	background-repeat:  no-repeat; 
+	width: 100%}
+.Cabecera{
+  width:  100%;
+  height: 300px;
+  padding: 0px;
+  background-color:rgba(102, 127, 153, 0.71);
+  float: top;
+}
+.Cabecera h1{
+	text-align: center;
+	color: white;
+	font-size: 50px ;
+	font-family:Helvetica; 	
+	float: right;
+	margin-top: 40;
+	margin-right: 100px;
+}
+.Cabecera h2{
+	color: rgb(69.65, 79.692, 100.725);
+	font-size: 40px;
+	letter-spacing: 5;
+	float: right;
+	margin-top: 110;
+	margin-right: -340;
+	font-family: Helvetica;
+
+}
+.Cabecera h3{
+color: white;
+font-size: 25px;
+float: right;
+margin-top: 160;
+margin-right: -130;
+}
+
+.box{
+	background-color: ;
+	box-sizing: content-box;
+	margin-left:  50px;
+	margin-top: 90px;
+	
+	height: 400px;
+	width: 40%;
+	display: fixed;
+  flex-direction: column;
+}
+
+
+.box h1, .exp h1{
+font-size: 50px;
+font-family:Helvetica;
+-webkit-text-stroke: 0.3px black;
+line-height: 80px;
+}
+.box ul, .exp ul{
+font-size: 40px;
+font-family:Helvetica;
+line-height: 80px;
+}
+
+.izquierda{
+	box-sizing: content-box;
+	height: 100%;
+	width: 100%;
+}
+.exp{
+	float: right;
+	font-size: 50px;
+	font-family:Helvetica;
+	-webkit-text-stroke: 0.3px black;
+	box-sizing: content-box;
+	height: 100px;
+	width: 50%;
+	margin-top: -1200px;
+	}
